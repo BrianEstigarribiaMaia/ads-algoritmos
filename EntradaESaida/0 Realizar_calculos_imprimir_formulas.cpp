@@ -1,6 +1,6 @@
 /* Fazer um programa que recebe quatro valores, a = 24.5, b = 97,
-c = 13.6 e d = 84. Realizar os cálculos abaixo e
-imprimir as fórmulas de cálculo como o exemplo acima.
+c = 13.6 e d = 84. Realizar os cÃ¡lculos abaixo e
+imprimir as fÃ³rmulas de cÃ¡lculo como o exemplo acima.
 
 a + b + d
 a + b + c
@@ -26,15 +26,15 @@ ok
 main()
 {
 	setlocale(LC_ALL,"Portuguese"); //para poder usar acentos
-	//declaração de váriaveis
+	//declaraÃ§Ã£o de vÃ¡riaveis
 	float a, c, soma, soma2, sub, sub2, mult, mult2, div, div2, raiz, raiz2;
 	int b, d, modulo, modulo2;
-	//atribuição de valores as váriaveis
+	//atribuiÃ§Ã£o de valores as vÃ¡riaveis
 	a = 24.5;
 	b = 97;
 	c = 13.6;
 	d = 84;
-	//fórmulas de cálculos
+	//fÃ³rmulas de cÃ¡lculos
 	soma = a + b + d;
 	soma2 = a + b + c;
 	sub = c - d - a;
@@ -43,7 +43,7 @@ main()
 	mult2 = d * a;
 	div = a / c;
 	div2 = b / d;
-	modulo = (int)a % (int)c;  //resto da divisão de a por c sem casas decimais 
+	modulo = (int)a % (int)c;  //resto da divisÃ£o de a por c sem casas decimais 
 	modulo2 = d % (int)a;
 	raiz = sqrt(a);
 	raiz2 = sqrt(b);
@@ -56,10 +56,10 @@ main()
 	printf("%d  * %.1f = %.2f\n", d, a, mult2);
 	printf("%.1f / %.1f = %.2f\n", a, c, div);
 	printf("%d   / %1d  = %.2f\n", b, d, div2);
-	printf("Módulo de %.1f com %.1f = %d\n", a, c, modulo);
-	printf("Módulo de %d com %.1f   = %d\n", d, a, modulo2);
-	printf("Raíz de %.1f = %.1f\n", a, raiz);
-	printf("Raíz de %d   = %.2f\n", b, raiz2);
+	printf("MÃ³dulo de %.1f com %.1f = %d\n", a, c, modulo);
+	printf("MÃ³dulo de %d com %.1f   = %d\n", d, a, modulo2);
+	printf("RaÃ­z de %.1f = %.1f\n", a, raiz);
+	printf("RaÃ­z de %d   = %.2f\n", b, raiz2);
 	//pausa no sistema antes do termino do programa
 	system("pause");
 	return 0;
