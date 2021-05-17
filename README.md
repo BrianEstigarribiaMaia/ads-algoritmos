@@ -1,6 +1,6 @@
 <h1>Sobre</h1>
 
-<p>Códigos da cadeira de Algoritmos e Programação com a linguagem C da FTEC Porto Alegre, curso de Análise e Desenvolvimento de Sistemas presencial.
+<p>Códigos da cadeira de Algoritmos e Programação com a linguagem C da FTEC Porto Alegre, graduação de Análise e Desenvolvimento de Sistemas presencial.
 Utilizei a plataforma GitHub como meio de organizar os Códigos e compartilhar os resultados. </p>
 
 <h2>Conteúdo</h2>
