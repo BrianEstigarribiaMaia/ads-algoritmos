@@ -12,13 +12,13 @@
 main()
 {
     setlocale(LC_ALL,"portuguese"); //para usar acentos 
-    float fahrenheit,celsius; //declaração de váriaveis 
+    float fahrenheit,celsius; //declaraÃ§Ã£o de vÃ¡riaveis 
      
     printf("Entre com a temperatura em graus Fahrenheit: "); //pede ao usuario um valor 
-    scanf("%f",&fahrenheit); //le o valor digitado e armazena na váriavel fahrenheit
-    //atribuindo operações as váriveis  
+    scanf("%f",&fahrenheit); //le o valor digitado e armazena na vÃ¡riavel fahrenheit
+    //atribuindo operaÃ§Ãµes as vÃ¡riveis  
     celsius = (fahrenheit - 32) / 9 * 5;
-    //mostra resultado do operação/processamento 
+    //mostra resultado do operaÃ§Ã£o/processamento 
     printf("%3.1f graus Fahrenheit sao %3.1f graus Celsius.\n",fahrenheit,celsius);
     //pausa no sistema antes do termino do programa 
     system("pause"); 
