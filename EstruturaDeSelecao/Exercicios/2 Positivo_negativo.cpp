@@ -1,5 +1,5 @@
 /*
-2.Escreva um algoritmo para ler um valor e escrever se é positivo ou negativo. 
+2.Escreva um algoritmo para ler um valor e escrever se Ã© positivo ou negativo. 
 Considere o valor zero como positivo
 ok
 */
@@ -18,9 +18,9 @@ main()
     scanf("%f",&val);
     
     if (val >= 0)
-    	printf("VALOR DIGITADO É POSITIVO \n");
+    	printf("VALOR DIGITADO Ã‰ POSITIVO \n");
     else
-		printf("VALOR DIGITADO É NEGATIVO \n");	
+		printf("VALOR DIGITADO Ã‰ NEGATIVO \n");	
     
     system("pause");
 }
