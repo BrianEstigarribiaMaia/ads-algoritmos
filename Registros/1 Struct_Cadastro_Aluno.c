@@ -11,11 +11,11 @@ struct CAD_ALUNO
     float Media;
 };
 
-/*FunÁ„o principal que executa o programa*/
+/*Fun√ß√£o principal que executa o programa*/
 main()
 {
-    /*DeclaraÁ„o de variaveis*/
-    struct CAD_ALUNO aluno[3]; /*Estrutura ler· 3 alunos*/
+    /*Declara√ß√£o de variaveis*/
+    struct CAD_ALUNO aluno[3]; /*Estrutura ler√° 3 alunos*/
     int i,cod;
 
     /*Leitura*/
@@ -30,7 +30,7 @@ main()
         printf("Digite a nota 2: ");
         scanf("%f",&aluno[i].n2);
 
-        /*ManipulaÁ„o*/
+        /*Manipula√ß√£o*/
         aluno[i].Media = (aluno[i].n1 + aluno[i].n2)/2;
         system("cls");
     }
