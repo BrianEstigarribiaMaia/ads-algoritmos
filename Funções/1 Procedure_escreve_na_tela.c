@@ -1,5 +1,5 @@
 /*Programa que pede um numero e escreve na tela
-  a ordem decrescente até esse numero
+  a ordem decrescente atÃ© esse numero
 */
 
 #include <stdio.h>
