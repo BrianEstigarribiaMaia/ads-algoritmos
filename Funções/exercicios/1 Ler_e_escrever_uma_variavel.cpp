@@ -1,5 +1,5 @@
 /*
-1.Construa um algoritmo que possua uma funÁ„o que leia uma vari·vel inteira e uma procedure que escreva esta vari·vel.  
+1.Construa um algoritmo que possua uma fun√ß√£o que leia uma vari√°vel inteira e uma procedure que escreva esta vari√°vel.  
 */
 
 #include <stdio.h>
