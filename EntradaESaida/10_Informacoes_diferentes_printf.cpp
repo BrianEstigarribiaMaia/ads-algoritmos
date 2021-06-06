@@ -1,6 +1,6 @@
 /*
-Faça um programa que escreva seu nome, 
-endereço e telefone, utilizando mais de um printf.
+FaÃ§a um programa que escreva seu nome, 
+endereÃ§o e telefone, utilizando mais de um printf.
 ok
 */
 
@@ -14,7 +14,7 @@ int main()
 	setlocale(LC_ALL,"Portuguese"); //para utilizar acentos 
 	//mostrar mensagens na tela 
 	printf("Nome: Brian Estigarribia\n");
-	printf("Endereco: Rua A, número :123\n");
+	printf("Endereco: Rua A, nÃºmero :123\n");
 	printf("Telefone: (51) 3333 4444\n");
 	//pausa no sistema antes do termino do programa
 	system("pause"); 
