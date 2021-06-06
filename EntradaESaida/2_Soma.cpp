@@ -11,16 +11,16 @@ ok
 int main()
 {
 	setlocale(LC_ALL,"Portuguese"); //para utilizar acentos 
-	int j,k; // declaraÁ„o de variaveis 
+	int j,k; // declara√ß√£o de variaveis 
 	
-	printf("Digite o valor de k: \n");  //solicitar valor ao usu·rio
+	printf("Digite o valor de k: \n");  //solicitar valor ao usu√°rio
 	scanf("%d", &k);                    //Ler valor clicado
 	 
-	printf("Digite o valor de j: \n");  //solicitar valor ao usu·rio
+	printf("Digite o valor de j: \n");  //solicitar valor ao usu√°rio
 	scanf("%d", &j);                    //Ler valor clicado
 	
-	printf("VocÍ digitou k = %d j= %d\n ", k, j);    //pegar os valores digitados no scanf e mostrar na tela 
-	printf("A soma de %d e %d = %d\n", k, j, k + j); //realizar calculo de soma com os valores digitados pelo usu·rio
+	printf("Voc√™ digitou k = %d j= %d\n ", k, j);    //pegar os valores digitados no scanf e mostrar na tela 
+	printf("A soma de %d e %d = %d\n", k, j, k + j); //realizar calculo de soma com os valores digitados pelo usu√°rio
 	//pausa no sistema antes do termino do programa 
 	system("pause");
 	return 0;
