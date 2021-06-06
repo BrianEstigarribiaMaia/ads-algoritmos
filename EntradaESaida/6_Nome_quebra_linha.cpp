@@ -1,4 +1,4 @@
-/*Faça um programa que escreva, em linhas diferentes, o seu nome e o sobrenome, utilizando
+/*FaÃ§a um programa que escreva, em linhas diferentes, o seu nome e o sobrenome, utilizando
 apenas um printf
 ok
 */
@@ -10,7 +10,7 @@ ok
 
 int main()
 {
-	setlocale(LC_ALL,"Portuguese"); // para utilização de acentos 
+	setlocale(LC_ALL,"Portuguese"); // para utilizaÃ§Ã£o de acentos 
 	//mostrar mensagens na tela 
 	printf("Brian\nEstigarribia\n");
 	//pausa no sistema antes do termino do programa 
