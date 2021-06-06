@@ -1,4 +1,4 @@
-/*Faça um programa que escreva seu nome, seu código de aluno e curso,
+/*FaÃ§a um programa que escreva seu nome, seu cÃ³digo de aluno e curso,
  utilizando apenas um printf.
  ok
 */
@@ -12,7 +12,7 @@ int main()
 {
 	setlocale(LC_ALL,"Portuguese"); //para utilizar acentos 
 	//mostrar mensagens na tela com quebras de linha
-	printf("Nome:Brian Estigarribia\nCód_Aluno:019281\nCurso:ADS\n");
+	printf("Nome:Brian Estigarribia\nCÃ³d_Aluno:019281\nCurso:ADS\n");
 	//pausa no sistema antes do termino do programa 
 	system("pause"); 
 	return 0;
