@@ -1,5 +1,5 @@
-/* Fazer um programa que recebe 2 variáveis do tipo float e as seguintes operações: soma, subtração,
-multiplicação, divisão e raiz quadrada de cada uma das variáveis. Retornar o valor de cada operação.
+/* Fazer um programa que recebe 2 variÃ¡veis do tipo float e as seguintes operaÃ§Ãµes: soma, subtraÃ§Ã£o,
+multiplicaÃ§Ã£o, divisÃ£o e raiz quadrada de cada uma das variÃ¡veis. Retornar o valor de cada operaÃ§Ã£o.
 ok
 */
 
@@ -12,13 +12,13 @@ ok
 int main()
 {
     setlocale(LC_ALL,"Portuguese"); //para utilizar acentos 
-	float n1,n2; //declaração de váriaveis 
+	float n1,n2; //declaraÃ§Ã£o de vÃ¡riaveis 
 		
-	printf("Digite um número n1: \n"); //pede ao usuraio para digitar um número
-	scanf("%f",&n1); //pega o número digitado e armazena na váriavel n1
+	printf("Digite um nÃºmero n1: \n"); //pede ao usuraio para digitar um nÃºmero
+	scanf("%f",&n1); //pega o nÃºmero digitado e armazena na vÃ¡riavel n1
 	
-	printf("Digite outro número n2: \n"); //pede ao usuraio para digitar um número
-	scanf("%f",&n2); //pega o número digitado e armazena na váriavel n2
+	printf("Digite outro nÃºmero n2: \n"); //pede ao usuraio para digitar um nÃºmero
+	scanf("%f",&n2); //pega o nÃºmero digitado e armazena na vÃ¡riavel n2
 	
 	//mostrar resultado de calculos com as variaveis 
 	printf("Soma de n1+n2 = %5.2f\n",n1+n2);          
