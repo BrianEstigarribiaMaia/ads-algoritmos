@@ -1,4 +1,4 @@
-/*Faça um programa que escreva, em linhas diferentes, o seu nome e o sobrenome, utilizando
+/*FaÃ§a um programa que escreva, em linhas diferentes, o seu nome e o sobrenome, utilizando
 mais de um printf.
 ok
 */
