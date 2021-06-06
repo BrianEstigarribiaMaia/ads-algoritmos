@@ -1,9 +1,9 @@
-/*Faça um programa que escreva o seu nome numa só linha, 
+/*FaÃ§a um programa que escreva o seu nome numa sÃ³ linha, 
 utilizando apenas um printf.
 ok
 */
 
-//bibiotecas úteis para o funcionamento do programa 
+//bibiotecas Ãºteis para o funcionamento do programa 
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
