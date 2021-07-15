@@ -1,10 +1,10 @@
 /********************************************************************
-* Projeto Urna Eletronica - Disciplina de Algoritmos e Programação  *
+* Projeto Urna Eletronica - Disciplina de Algoritmos e ProgramaÃ§Ã£o  *
 * Profesora: Aline Riva                                             *
 *                                                                   *
 * Data: 08/07/2016                                                  *
 * Autor: Brian Estigarribia                                         *
-* Versão Final                                                      *
+* VersÃ£o Final                                                      *
 *********************************************************************/
 /*
 Falta------------- 
@@ -39,7 +39,7 @@ int vagas_ver=0;
 int i=0,op,cand1=0,cand2=0,nulo=0,op1,voto=0;
 int candv1=0,candv2=0,candv3=0,candv4=0,candv5=0;
 
-//=====================PROTÓTIPO DE FUNÇÕES E PROCEDURES
+//=====================PROTÃ“TIPO DE FUNÃ‡Ã•ES E PROCEDURES
 void menu_inicial();
 int cadastrar_candidatos();
 int votar();
@@ -96,7 +96,7 @@ void cria_menu_linha_hor(int tamx)
 }
 
 //====================PROCEDIMENTOS  2
-//procedure para criar opções de menu inicial
+//procedure para criar opÃ§Ãµes de menu inicial
 void menu_inicial()
 {
 	int cargo;
@@ -129,8 +129,8 @@ void menu_inicial()
 	}
 }
 
-//====================FUNÇÕES
-//função para realizar cadastro de candidatos
+//====================FUNÃ‡Ã•ES
+//funÃ§Ã£o para realizar cadastro de candidatos
 int cadastrar_candidatos()
 {
 	int i;
@@ -228,7 +228,7 @@ int cadastrar_candidatos()
 		return 0;
 }
 
-//função para realizar o processo de votação
+//funÃ§Ã£o para realizar o processo de votaÃ§Ã£o
 int votar()
 {
 	int i,j,aux=0;
@@ -272,7 +272,7 @@ int votar()
 				printf("Digite uma opcao: ");
 				scanf("%d",&op);
 
-				if(op == 1)  //se opção verdadeira acumula candidato 
+				if(op == 1)  //se opÃ§Ã£o verdadeira acumula candidato 
 				{
 					cand1++;
 				}else if(op==2)
@@ -313,7 +313,7 @@ int votar()
 			cria_menu_item(STRAM,"Digite o numero que corresponde sua opcao");
 			cria_menu_linha_rodape(STRAM);
 
-			for(i=1;i<=5;i++)  //mostrar opções de voto
+			for(i=1;i<=5;i++)  //mostrar opÃ§Ãµes de voto
 			{
 				printf("Opcao %d\n",i);
 				printf("Nome: %s\n",ver[i].nome);
@@ -366,7 +366,7 @@ int votar()
 	return 0;
 }
 
-//função para gerar relatórios
+//funÃ§Ã£o para gerar relatÃ³rios
 int relatorios()
 {
 	float perc1=0.0,perc2=0.0,percv1=0.0,percv2=0.0,percv3=0.0,percv4=0.0,percv5=0.0;
