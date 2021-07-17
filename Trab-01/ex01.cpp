@@ -5,7 +5,7 @@ main()
 {
     int x,y,z;
     
-    printf("Digite 3 números inteiros: ");
+    printf("Digite 3 nÃºmeros inteiros: ");
     scanf("%d %d %d",&x,&y,&z);
     
     if (x > 0 && (x+z) > 10)
