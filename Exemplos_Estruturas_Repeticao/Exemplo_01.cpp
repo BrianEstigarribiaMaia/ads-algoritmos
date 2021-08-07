@@ -1,5 +1,5 @@
 /*
-exemplo de cÛdigo com uso de for
+exemplo de c√≥digo com uso de for
 ok
 */
 
@@ -11,22 +11,22 @@ ok
 int main(int arc,char*argv[])
 {
     setlocale(LC_ALL,"Portuguese");//para utilizar acentos 
-    //decalaraÁ„o de v·rivaies 
+    //decalara√ß√£o de v√°rivaies 
     float ma,mediag,soma;
     int contador;
-    //inicializaÁ„o de v·riavel
+    //inicializa√ß√£o de v√°riavel
     soma = 0;
-    //informar 5 mÈdias 
+    //informar 5 m√©dias 
     for(contador = 1; contador <= 5; contador++)
     {
-        printf("Informe a mÈdia: ");
+        printf("Informe a m√©dia: ");
         scanf("%f",&ma);
         soma = soma + ma;
     }
-    //calculo da mÈdia geral 
+    //calculo da m√©dia geral 
     mediag = soma/contador;
-    //mostrar mÈdia geral 
-    printf("A mÈdia geral È: %.2f\n\n",mediag);  
+    //mostrar m√©dia geral 
+    printf("A m√©dia geral √©: %.2f\n\n",mediag);  
     //pausa no sistema antes do termino do programa 
     system("pause");
     return 0;
