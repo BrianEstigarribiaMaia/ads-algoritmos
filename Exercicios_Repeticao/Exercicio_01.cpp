@@ -1,5 +1,5 @@
 /*
-1. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números. 
+1. Fazer um algoritmo para receber nÃºmeros decimais atÃ© que o usuÃ¡rio digite 0 e fazer a mÃ©dia aritmÃ©tica desses nÃºmeros. 
 ok
 */
 
@@ -15,7 +15,7 @@ main()
     cont = 0;
     do
     {
-        printf("Digite um número decimal: ");
+        printf("Digite um nÃºmero decimal: ");
         scanf("%f",&num);
         cont++;
     } 
