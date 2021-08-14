@@ -1,6 +1,6 @@
 /*
-1. Escreva um algoritmo que construa um menu com três funções: 
-(I) Inclusão, (A) Alteração e (T) Término e mostre para o usuário a opção escolhida.
+1. Escreva um algoritmo que construa um menu com trÃªs funÃ§Ãµes: 
+(I) InclusÃ£o, (A) AlteraÃ§Ã£o e (T) TÃ©rmino e mostre para o usuÃ¡rio a opÃ§Ã£o escolhida.
 ok
 */
 
