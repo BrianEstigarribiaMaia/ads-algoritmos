@@ -1,6 +1,6 @@
 /*
-Crie um registro com o nome do funcion·rio, cargo e sal·rio.
-Leia este registro p/ um funcion·rio e ao final escreva o conte˙do do registro.
+Crie um registro com o nome do funcion√°rio, cargo e sal√°rio.
+Leia este registro p/ um funcion√°rio e ao final escreva o conte√∫do do registro.
 
 */
 
@@ -23,7 +23,7 @@ main()
    scanf("%s",&funcionario.nome);
    printf("Digite o cargo:   \n");
    scanf("%s",&funcionario.cargo);
-   printf("Digite o sal·rio: \n");
+   printf("Digite o sal√°rio: \n");
    scanf("%f",&funcionario.salario);
 
    printf("\t\tDADOS DO FUNCIONARIO\n");
