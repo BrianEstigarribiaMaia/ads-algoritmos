@@ -1,6 +1,6 @@
 /*
-Preencher um vetor X de 10 elementos (índices de 0 a 9) com o valor inteiro 30. 
-Escrever o vetor X, após seu total preenchimento.
+Preencher um vetor X de 10 elementos (Ã­ndices de 0 a 9) com o valor inteiro 30. 
+Escrever o vetor X, apÃ³s seu total preenchimento.
 
 ok
 */
@@ -11,17 +11,17 @@ ok
 main()
 {
     int i;     //inicaliza a variavel 'i' contador do tipo inteiro
-    int x[10]; //inicializa o vetor 'x' com 10 posições do tipo inteiro
+    int x[10]; //inicializa o vetor 'x' com 10 posiÃ§Ãµes do tipo inteiro
     
     //preencher vetor x
     for(i = 0; i <= 10; i++) //percorre 10 elementos
     {
-        x[i] = 30; //atribui o valor 30 a cada posição
+        x[i] = 30; //atribui o valor 30 a cada posiÃ§Ã£o
     }
     //mostrar resultado na tela 
     for(i = 0; i < 10; i++) //percorre 10 elementos 
     {
-        printf ("x[%d] = %d\n",i,x[i]); //posição(contador) e preenchimentode 'x' (30)
+        printf ("x[%d] = %d\n",i,x[i]); //posiÃ§Ã£o(contador) e preenchimentode 'x' (30)
     }
     
     system("pause");
